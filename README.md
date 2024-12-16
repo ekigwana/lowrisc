@@ -1,4 +1,4 @@
-sudo emerge pipenv crossdev
+```sudo emerge pipenv crossdev
 crossdev -t riscv32-unknown-none-elf
 sudo emerge dev-embedded/srecord
 sudo emerge pipenv
@@ -30,3 +30,4 @@ cp -a build/ibex_out/ ../ibexrv32
 # --MHPMCounterNum=0 --MHPMCounterWidth=40 --FPGA_XILINX=1 --part=xczu11eg-ffvb1517-2-i --setup --build-root ./build/ibex_out lowrisc:ibex:ibex_top
 
 deactivate
+```
